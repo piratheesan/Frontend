@@ -1,0 +1,253 @@
+
+.header
+{
+    height: 5%;
+    width: 100% ;
+    background-color: #00897b;
+    padding-top: 20px;    
+    padding-bottom: 10px;
+    text-align: right;
+    
+    
+}
+
+.title
+{
+    text-align: center;
+    color: black;; 
+    font-weight:bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+td{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+th{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+.foot
+{
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    color: white; 
+    text-align: center;       
+    position: fixed;
+}
+
+.tbl1
+{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 5px;
+  
+}
+
+.tbl1 th
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: rgb(34, 138, 115);
+    color: white;
+}
+
+.tbl1 th td
+{
+    border: 2px solid #ddd;
+    
+}
+.id
+{
+    
+    height: 30px;
+    width: 200px;
+    position: relative;
+    /* border: 3px solid #9933CC; */
+    border-color: rgba(0, 0, 0, .14);
+    background-color:white;
+    font-size: 16px;
+    border-radius: 20px 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: 800;
+
+}
+.search_but
+{
+  background-color: rgb(216, 154, 38); 
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 80px 80px;
+}
+.search_but:hover
+{
+    background-color: #ffd54f;
+}
+.img1
+{
+    text-align: center;
+}
+
+.del
+{
+    background-color: rgb(224, 34, 34);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px 15px;   
+    width: 30%;
+   
+    
+}
+.edit:hover
+{
+    background-color: rgb(37, 37, 182);
+}
+.edit
+{
+    background-color:#039be5;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px 15px;
+    width: 30%;
+}
+.del:hover
+{
+    background-color: rgb(124, 36, 36);
+}
+
+.sty
+{
+    color: black;
+    font: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+
+}
+label
+{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-weight: 650;
+}         
+
+.form_style
+{
+    padding-left: 500px;
+    widows: 200px;
+    background-color:#80cbc4 ;
+    padding-bottom: 100px;
+    padding-top: 15px;
+    /* text-align: left; */
+}
+.txtid
+{
+    height: 35px;
+    width: 350px;
+    position: relative;
+    /* border: 3px solid #9933CC; */
+    border-color: rgba(0, 0, 0, .14);
+    background-color:white;
+    font-size: 12px;
+    border-radius: 15px 20px 30px;
+    
+}
+.save_but
+{
+  background-color: rgb(19, 143, 24); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px 10px;
+}
+.can_but
+{
+  background-color: rgb(133, 1, 1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px 12px;
+}
+h1
+{
+    color: black;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+    text-align: center;
+   
+
+}
+.Add
+{
+    height:80px;
+    width: 250px;
+    color: white;  
+    font-weight:800;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    border: #00838f;
+    background:linear-gradient(to right,#00897b,#00838f,#00838f,#00897b )
+}
+.Add:hover
+{
+    background:linear-gradient(to right,#00bcd4 ,#00bcd4 ,#00bcd4 ,#00bcd4  )
+}
+
+.View:hover
+{
+    background:linear-gradient(to right,#00bcd4 ,#00bcd4 ,#00bcd4 ,#00bcd4  )
+}
+.View
+{
+    height:80px;
+    width: 250px;
+    color: white;  
+    font-weight:800;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    border: #00838f;
+    background:linear-gradient(to right,#00897b,#00838f,#00838f,#00897b )
+}
+.index_btn
+{
+    text-align: center;
+    /* padding-left: 420px; */
+}
