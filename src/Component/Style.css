@@ -2,11 +2,12 @@
 .header
 {
     height: 5%;
-    width: 100% ;
+    width: 100%;    
     background-color: #00897b;
     padding-top: 20px;    
     padding-bottom: 10px;
     text-align: right;
+    float: right;
     
     
 }
@@ -18,7 +19,7 @@
     font-weight:bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 
 }
 td{
@@ -43,6 +44,7 @@ th{
     color: white; 
     text-align: center;       
     position: fixed;
+    padding-bottom: 15px;
 }
 
 .tbl1
@@ -122,6 +124,59 @@ th{
    
     
 }
+.btn_add
+{
+    background-color: #29a329;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px 15px;
+    width: 13%;
+
+}
+.btn_add:hover
+{
+    background-color: #0a290a;
+}
+.btn_add1
+{
+    background-color: #2d8659;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px 15px;
+    width: 13%;
+
+}
+.btn_add1:hover
+{
+    background-color: #0a290a;
+}
+.loc
+{
+    text-align: right;
+    padding-top: 110px;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+.loc1
+{
+    text-align: left;
+    padding-top: 110px;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+}
 .edit:hover
 {
     background-color: rgb(37, 37, 182);
@@ -150,6 +205,7 @@ th{
     font: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:white;
+    padding-top: 70px;
 
 }
 label
@@ -166,7 +222,7 @@ label
     widows: 200px;
     background-color:#80cbc4 ;
     padding-bottom: 100px;
-    padding-top: 15px;
+    padding-top: 20px;
     /* text-align: left; */
 }
 .txtid
