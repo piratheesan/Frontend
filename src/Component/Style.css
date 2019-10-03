@@ -1,14 +1,23 @@
-
 .header
 {
     height: 5%;
     width: 100%;    
     background-color: #00897b;
     padding-top: 20px;    
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: right;
     float: right;
     
+    
+}
+.home
+{
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 0px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
     
 }
 
@@ -18,8 +27,8 @@
     color: black;; 
     font-weight:bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    padding-bottom: 5px;
+    font-size: 40px;  
+    padding-top:50px;
 
 }
 td{
@@ -102,7 +111,7 @@ th{
 }
 .search_but:hover
 {
-    background-color: #ffd54f;
+    background-color: #f7cc3f;
 }
 .img1
 {
@@ -126,7 +135,7 @@ th{
 }
 .btn_add
 {
-    background-color: #29a329;
+    background-color: #11633a;
     border: none;
     color: white;
     padding: 10px 10px;
@@ -136,7 +145,6 @@ th{
     font-size: 15px;
     border-radius: 15px 15px;
     width: 13%;
-
 }
 .btn_add:hover
 {
@@ -144,7 +152,7 @@ th{
 }
 .btn_add1
 {
-    background-color: #2d8659;
+    background-color: #0c680c;
     border: none;
     color: white;
     padding: 10px 10px;
@@ -154,7 +162,6 @@ th{
     font-size: 15px;
     border-radius: 15px 15px;
     width: 13%;
-
 }
 .btn_add1:hover
 {

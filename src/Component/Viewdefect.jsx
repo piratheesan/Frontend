@@ -9,17 +9,20 @@ export default class Viewdefect extends Component {
     render() {
         return ( 
                 <div>                
-                <Header />  
-                <div className="loc">
-                    <img src={logo1} alt="logo" height="45px" width="45px"/>&emsp;
-                </div>
+                <Header /> 
+                <br></br>                 
                 <div className="loc1">
-                <div>           
-                    &emsp;<img src={logo} alt="logo" height="40px" width="40px"/>                
+                    {/* <button className="btn_add">
+                        <i className="fa fa-home">
+                    &nbsp;&nbsp;Home</i></button>&nbsp; */}
+                    <div><p className="home">&nbsp;<i className="fa fa-home">&nbsp;Home</i></p></div>        
                 </div>
+                <div className="loc">
+                    <button className="btn_add1">
+                        <i className="fa fa-plus">
+                    &nbsp;&nbsp;Add Defects</i></button>&nbsp;
+                                   </div>
 
-                   
-                </div>
                 <br></br><br></br>               
                 <h1 className="title">List All Defects</h1> 
                 <br></br>                      
@@ -49,7 +52,15 @@ export default class Viewdefect extends Component {
                         <td>Status</td>
                         <td>EID</td>
                         <td>PID</td>
-                        <td>&nbsp;&nbsp;<button className="edit">Edit</button>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;<button className="del">Delete</button></td>
+                        <td>&nbsp;&nbsp;<button className="edit">
+                        <i
+                        className="fa fa-edit">
+                        &nbsp;Edit</i></button>
+                        &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;<button className="del">
+                        <i className="fa fa-trash">                        
+                        &nbsp;Delete
+                        </i>
+                        </button></td>
                         
                     </tr>
                     

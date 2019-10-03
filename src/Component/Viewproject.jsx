@@ -36,8 +36,20 @@ export default class Viewproject extends Component {
                         <td>ID</td>
                         <td>Description</td>
                         <td>Name</td>
-                        <td>&nbsp;&nbsp;<button className="edit">Edit</button>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;<button className="del">Delete</button></td>
+                        <td>&nbsp;&nbsp;<button className="edit">
+                        <i
+                        className="fa fa-edit"
                         
+                        >
+                        &nbsp;Edit</i></button>
+                        &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;<button className="del">
+                        <i
+                        className="fa fa-trash"
+                        
+                        >                        
+                        &nbsp;Delete
+                        </i>
+                        </button></td>
                     </tr>
                     
                 </table>               

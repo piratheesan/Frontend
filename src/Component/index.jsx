@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './header.jsx';
 import Footer from './footer.jsx';
 import './Style.css';
 import logo from '../image/SGIC.jpg';
 // import Nav from './NavBar.jsx';
+import Emp from './Viewemployee.jsx'
 
 export default class index extends Component 
 {
@@ -20,6 +22,12 @@ export default class index extends Component
                     <img src={logo} alt="logo" height="300px" width="300px"/>
                 </div>  
                 <div className="index_btn">
+				<Router>
+				<Switch>				 
+				  <Route path="/Viewemployee" exact component={Emp} />
+				 
+				</Switch>
+			  </Router>
                     <button className="Add" >Employee Details</button>
                     &emsp;<button className="View">Defects Details</button>
                     &emsp;<button className="View">Projects Details</button>
