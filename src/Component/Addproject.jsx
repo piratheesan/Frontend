@@ -11,7 +11,7 @@ export default class Addproject extends Component {
                 <Header />
                 <div className="sty">              
                     <form className="form_style">
-                        <br></br><br></br><br></br><br></br> 
+                        <br></br><br></br>
                         <div className="floating" >
                             <Mid /> 
                         </div>                                        
