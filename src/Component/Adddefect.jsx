@@ -2,17 +2,19 @@ import React, { Component } from 'react'
 import './Style.css';
 import Header from './header.jsx';
 import Footer from './footer';
-
+import Mid from '../Component/Middle.jsx'
 
 export default class Adddefect extends Component {
     render() {
         return (
             <div>
-                <Header />
-                <div className="sty">              
-                    <form className="form_style">
-                        <br></br>
-                       
+                <Header />                
+                <div className="sty">                                  
+                    <form className="form_style">                    
+                        <br></br>   
+                            <div className="floating" >
+                                <Mid /> 
+                            </div>                   
                             <label>Description</label><br></br>
                             <input type="text" name="description" className="txtid"></input><br></br><br></br>                                    
                             <label>Name</label><br></br>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './Style.css';
 import Header from './header.jsx';
 import Footer from './footer';
-
+import Mid from '../Component/Middle.jsx'
 
 export default class Addemployee extends Component {
     render() {
@@ -11,7 +11,10 @@ export default class Addemployee extends Component {
                 <Header />
                 <div className="sty">              
                     <form className="form_style">
-                        <br></br><br></br>                                       
+                        <br></br><br></br>
+                        <div className="floating" >
+                                <Mid /> 
+                        </div>                                        
                         <label>Name</label><br></br>
                         <input type="text" name="name" className="txtid"></input><br></br><br></br>     
                         <label>Type</label> <br></br>                 

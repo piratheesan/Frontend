@@ -4,26 +4,17 @@ import Header from './header.jsx';
 import Footer from './footer';
 import logo from '../image/home.png';
 import logo1 from '../image/add.png';
+import Mid from '../Component/Middle.jsx'
 
 export default class Viewdefect extends Component {
     render() {
         return ( 
                 <div>                
-                <Header /> 
-                <br></br>                 
-                <div className="loc1">
-                    {/* <button className="btn_add">
-                        <i className="fa fa-home">
-                    &nbsp;&nbsp;Home</i></button>&nbsp; */}
-                    <div><p className="home">&nbsp;<i className="fa fa-home">&nbsp;Home</i></p></div>        
-                </div>
+                <Header />                            
+                <Mid />
                 <div className="loc">
-                    <button className="btn_add1">
-                        <i className="fa fa-plus">
-                    &nbsp;&nbsp;Add Defects</i></button>&nbsp;
-                                   </div>
-
-                <br></br><br></br>               
+                <a href="/viewdefform"><button className="btn_add1"><i className="fa fa-plus" >&nbsp;Add New</i></button></a>
+                </div>
                 <h1 className="title">List All Defects</h1> 
                 <br></br>                      
                 <table border="2" className="tbl1 form_style">
